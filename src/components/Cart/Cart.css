@@ -1,0 +1,14 @@
+.summary{
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+}
+
+.summary h5{
+    margin: 0;
+}
+
+.button-group{
+    display: flex;
+    justify-content: end;
+}

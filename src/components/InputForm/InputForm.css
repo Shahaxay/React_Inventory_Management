@@ -1,4 +1,10 @@
 .input-form{
-    padding-top: 20%;
     border: 1px solid black;
+    padding: 1rem;
+    background-color: green;
+    color: white;
+    position: relative;
+    bottom:5rem;
+    width: 50%;
+    margin: auto;
 }

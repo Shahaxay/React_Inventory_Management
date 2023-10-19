@@ -1,8 +1,15 @@
 .header{
     display: flex;
     justify-content: space-between;
+    place-items: center;
     position:fixed;
     left:0;
     top:0;
     width: 100vw;
+    background-color: green;
+    color: white;
+    z-index: 50;
+}
+.header h2{
+    padding-left: 3rem;
 }

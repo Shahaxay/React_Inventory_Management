@@ -1,0 +1,9 @@
+.button{
+    padding:4px 8px;
+    margin-top: 4px;
+    margin-right: .5rem;
+}
+
+.button:hover{
+    border-color: green;
+}

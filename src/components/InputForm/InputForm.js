@@ -1,7 +1,7 @@
 import React,{useContext} from "react";
 import Input from "../UI/Input/Input";
 import Button from "../UI/Button/Button";
-import StockContext from "../../store/stock-context";
+import StockContext from "../store/stock-context";
 import './InputForm.css';
 
 

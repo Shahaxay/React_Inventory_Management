@@ -13,7 +13,7 @@ const BackDrop=props=>{
 
 const ModelOverlay=props=>{
     return(
-        <div className="modeloverlay">{props.children}</div>
+        <div className="modeloverlay card">{props.children}</div>
     );
 }
 

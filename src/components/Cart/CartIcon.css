@@ -1,4 +1,22 @@
 .cart-icon{
-    background-color: rgb(26, 23, 23);
-    color:white
+    background-color: rgb(17, 29, 17);
+    color:white;
+    display: flex;
+    justify-content:space-around;
+    place-items: center;
+    margin-right: 2rem;
+    padding: 2px 4px;
+    border-radius: 0 12px 0 12px;
 }
+#badge{
+    border:1px solid green;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: green;
+}
+
+.cart-icon:hover{
+    background-color:rgb(17, 53, 3);
+    border-color: white;
+}
+

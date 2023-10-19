@@ -1,0 +1,11 @@
+.stock{
+    width: 100vw;
+    border: 1px solid green;
+    overflow-x: hidden;
+}
+.stock th{
+    border:1px solid green;
+}
+.stock td{
+    text-align: center;
+}

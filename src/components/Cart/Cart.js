@@ -2,7 +2,7 @@ import React,{useContext} from "react";
 import Model from "../UI/Model/Model";
 import Button from "../UI/Button/Button"
 import CartList from "./CartList";
-import CartContext from "../../store/cart-context";
+import CartContext from "../store/cart-context";
 
 import './Cart.css';
 
@@ -22,11 +22,11 @@ const Cart=props=>{
     return (
         <Model onClick={props.onClose}>
             <CartList/>
-            <div>
+            <div className="summary">
                 <h5>Total Price</h5>
                 <span>{'Rs '+totalBill}</span>
             </div>
-            <div>
+            <div className="button-group">
             <Button title="Close" onClick={closeCartHandler}/>
             <Button title="Generate Bill" onClick={generateBillHandler}/>
             </div>

@@ -1,0 +1,27 @@
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    flex-direction: row;
+}
+.cart-item h5{
+    margin: 0;
+}
+.cart-item h6{
+    display: inline-block;
+    margin-right:1rem;
+    margin-bottom: 0;
+}
+
+#decrease{
+background-color: green;
+color: white;
+margin-left:5px;
+}
+
+#decrease:hover{
+    background-color: rgb(6, 75, 6);
+}
+hr{
+    border-color: green;
+}

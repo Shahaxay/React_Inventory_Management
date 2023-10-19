@@ -2,7 +2,7 @@ import React,{useContext} from "react";
 
 import './StockItem.css';
 import Button from "../UI/Button/Button";
-import CartContext from "../../store/cart-context";
+import CartContext from "../store/cart-context";
 
 const StockItem=props=>{
     const context=useContext(CartContext);
@@ -15,7 +15,7 @@ const StockItem=props=>{
         context.onAdd(obj);
     }
     return(
-        <tr>
+        <tr className="stock-item">
             <td>{props.item.title}</td>
             <td>{props.item.description}</td>
             <td>{props.item.price}</td>

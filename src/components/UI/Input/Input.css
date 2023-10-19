@@ -1,0 +1,10 @@
+.input label{
+    display: block;
+}
+.input input{
+    width: 100%;
+}
+
+.input input:focus{
+    border: 1px solid white;
+}

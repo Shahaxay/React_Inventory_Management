@@ -4,13 +4,13 @@ import StockList from "./StockList";
 
 const Stock=props=>{
     return (
-        <table>
+        <table className="stock">
             <tr>
             <th>Medicine Name</th>
             <th>Description</th>
             <th>Price</th>
             <th>quantity</th>
-            <th></th>
+            <th>action</th>
             </tr>
             <StockList/>
         </table>

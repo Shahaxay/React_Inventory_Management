@@ -1,11 +1,13 @@
 import React from "react";
 import './Input.css';
 
-const Input=props=>{
-    return(
+const Input = props => {
+    return (
         <React.Fragment>
-            <label htmlFor={props.attributs.id}>{props.title}</label>
-            <input {...props.attributs}/>
+            <div className="input">
+                <label htmlFor={props.attributs.id}>{props.title}</label>
+                <input {...props.attributs} />
+            </div>
         </React.Fragment>
     );
 };
